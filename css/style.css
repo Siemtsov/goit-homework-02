@@ -40,6 +40,9 @@ body {
   font-weight: 500;
   color: var(--primary-navy-blue);
 }
+.address-style {
+  font-style: normal;
+}
 /* LOGO */
 .logo {
   text-decoration: none;
@@ -71,18 +74,15 @@ body {
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
-  transition: 0.5s;
   color: var(--ocean-active);
   text-decoration: underline;
 }
 .address-link {
   color: var(--primary-slate);
-  transition: 0.5s;
 }
 .address-link:hover,
 .address-link:focus,
 .address-link:active {
-  transition: 0.5s;
   color: var(--ocean-active);
 }
 /* HERO SECTION */
@@ -113,14 +113,8 @@ body {
   cursor: pointer;
   background-color: var(--ocean-active);
 }
-/* OPTIONS SECTION */
-.options-headers {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-blue);
-}
+/* CAPTION */
+
 .options-caption {
   color: var(--primary-slate);
 }
@@ -133,6 +127,13 @@ body {
   line-height: 1.11;
   font-size: 36px;
   letter-spacing: 0.02em;
+}
+.options-headers {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-navy-blue);
 }
 /* OUR WORK */
 .work-container {
