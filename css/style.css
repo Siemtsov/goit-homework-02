@@ -1,13 +1,14 @@
 /* SETTINGS */
 :root {
-  --primary-cloud-color: #f4f4fd;
   --primary-navy-blue: #2e2f42;
   --iris-color: #4d5ae5;
   --logo-dark-color: #2e2f42;
-  --logo-light-color: #f4f4fd;
   --ocean-active: #404bbf;
   --primary-slate: #434455;
   --primary-white-color: #ffffff;
+  --logo-light-color: #f4f4fd;
+  --primary-cloud-color: #f4f4fd;
+  --cornflower-color: #e7e9fc;
 }
 .visually-hidden {
   position: absolute;
@@ -118,12 +119,19 @@ ol {
   text-transform: capitalize;
   line-height: 1.11;
 }
+/* OUR WORK */
+.work-container {
+  border: 1px solid var(--cornflower-color);
+}
 /* OUR TEAM SECCTION */
 .team-section {
   background-color: var(--primary-cloud-color);
 }
 .team-container {
   background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 /* FOOTER SECTION */
 .footer-section {
@@ -131,4 +139,30 @@ ol {
 }
 .footer-caption {
   color: var(--primary-cloud-color);
+}
+/* PORTFOLIO */
+/* PANEL */
+.panel-btn {
+  color: var(--iris-color);
+  background-color: var(--primary-cloud-color);
+  border-color: var(--cornflower-color);
+  border: 1px;
+  border-radius: 4px;
+  padding: 12px 24px;
+  transition: 0.5s;
+}
+.panel-btn:active,
+.panel-btn:hover,
+.panel-btn:focus {
+  transition: 0.5s;
+  cursor: pointer;
+  color: var(--primary-white-color);
+  background-color: var(--ocean-active);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/* SERVICE */
+.service-container {
+  background-color: var(--primary-white-color);
+  border: 1px solid var(--cornflower-color);
 }
