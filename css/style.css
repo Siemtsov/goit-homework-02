@@ -166,3 +166,12 @@ ol {
   background-color: var(--primary-white-color);
   border: 1px solid var(--cornflower-color);
 }
+.service-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.service-caption {
+  line-height: 1.5;
+  color: var(--primary-slate);
+}
