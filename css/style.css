@@ -24,7 +24,7 @@
 }
 body {
   color: var(--primary-navy-blue);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -41,12 +41,15 @@ ol {
 }
 /* LOGO */
 .logo {
+  font-family: "Raleway";
+  text-transform: uppercase;
   color: var(--iris-color);
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .logo-dark {
   color: var(--logo-dark-color);
@@ -118,6 +121,8 @@ ol {
   text-align: center;
   text-transform: capitalize;
   line-height: 1.11;
+  font-size: 36px;
+  letter-spacing: 0.02em;
 }
 /* OUR WORK */
 .work-container {
