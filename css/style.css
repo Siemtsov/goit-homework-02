@@ -23,7 +23,8 @@
   margin: -1px;
 }
 body {
-  color: var(--primary-navy-blue);
+  color: #434455;
+  background-color: #fff;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -31,17 +32,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-ul,
-ol {
+.list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+  font-weight: 500;
   color: var(--primary-navy-blue);
 }
 /* LOGO */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: var(--iris-color);
   font-family: "Raleway";
@@ -60,7 +61,11 @@ ol {
 /* HEADER */
 .nav-link {
   font-weight: 500;
-  transition: 0.5s;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-navy-blue);
+  
 }
 .nav-link:hover,
 .nav-link:active,
@@ -96,10 +101,6 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   background-color: var(--iris-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  padding: 16px 32px;
-  border-radius: 4px;
-  transition: 0.5s;
 }
 .hero-btn:focus,
 .hero-btn:active,
@@ -134,9 +135,6 @@ ol {
 }
 .team-container {
   background-color: var(--primary-white-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 /* FOOTER SECTION */
 .footer-section {
@@ -152,24 +150,17 @@ ol {
   background-color: var(--primary-cloud-color);
   border-color: var(--cornflower-color);
   border: 1px;
-  border-radius: 4px;
-  padding: 12px 24px;
-  transition: 0.5s;
 }
 .panel-btn:active,
 .panel-btn:hover,
 .panel-btn:focus {
-  transition: 0.5s;
   cursor: pointer;
   color: var(--primary-white-color);
   background-color: var(--ocean-active);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* SERVICE */
 .service-container {
   background-color: var(--primary-white-color);
-  border: 1px solid var(--cornflower-color);
 }
 .service-header {
   font-weight: 500;
