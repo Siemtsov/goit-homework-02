@@ -42,6 +42,7 @@ body {
 }
 /* LOGO */
 .logo {
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: var(--iris-color);
@@ -54,9 +55,11 @@ body {
 }
 .logo-dark {
   color: var(--logo-dark-color);
+  font-family: "Raleway", sans-serif;
 }
 .logo-light {
   color: var(--logo-light-color);
+  font-family: "Raleway", sans-serif;
 }
 /* HEADER */
 .nav-link {
@@ -65,7 +68,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-navy-blue);
-  
 }
 .nav-link:hover,
 .nav-link:active,
@@ -94,8 +96,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.04em;
   border: 0;
   color: var(--primary-white-color);
   font-weight: 500;
@@ -105,13 +111,16 @@ body {
 .hero-btn:focus,
 .hero-btn:active,
 .hero-btn:hover {
-  transition: 0.5s;
+  cursor: pointer;
   background-color: var(--ocean-active);
 }
 /* OPTIONS SECTION */
 .options-headers {
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-navy-blue);
 }
 .options-caption {
   color: var(--primary-slate);
@@ -119,6 +128,7 @@ body {
 /* HEADERS */
 .work-header,
 .team-section-header {
+  color: var(--primary-navy-blue);
   text-align: center;
   text-transform: capitalize;
   line-height: 1.11;
@@ -136,6 +146,13 @@ body {
 .team-container {
   background-color: var(--primary-white-color);
 }
+.team-header-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-navy-blue);
+}
 /* FOOTER SECTION */
 .footer-section {
   background-color: var(--primary-navy-blue);
@@ -148,8 +165,11 @@ body {
 .panel-btn {
   color: var(--iris-color);
   background-color: var(--primary-cloud-color);
-  border-color: var(--cornflower-color);
-  border: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .panel-btn:active,
 .panel-btn:hover,
